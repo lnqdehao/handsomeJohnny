@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
-	<head>
-	<meta charset="utf-8" />
-	<meta name="keywords" content="杭州摆摆网络科技有限公司" />
-	<meta name="discrption" content="杭州摆摆网络科技有限公司是一家互联网制作及设计的现代设计公司。摆摆网络将市场定位于以企业互联网电子商务平台及企业信息化建设为基点，提供全方位的设计与应用方案。以网站建设及网络营销整合作为其主打服务产品之外，摆摆网络的服务范围包括软件开发、平面设计、界面设计、网页设计等多方位优质服务。凭着对卓越服务与产品的不断追求，杭州摆摆网络科技有限公司在服务领域不断追求创新，依靠强大的技术实力、高效严谨的技术服务人员队伍，杭州摆摆网络科技有限公司在业界树立了良好的口碑。继往开来，杭州摆摆网络科技有限公司将以国际化的运营理念，多年业界的从业经验和技术积累，持之以恒，自强不息，为广大用户提供更加优异的产品和服务。" />
-	<title>杭州摆摆网络科技股份有限公司</title>
-	<style>
+<head>
+<meta charset="utf-8" />
+<meta name="keywords" content="杭州摆摆网络科技有限公司" />
+<meta name="discrption" content="杭州摆摆网络科技有限公司是一家互联网制作及设计的现代设计公司。摆摆网络将市场定位于以企业互联网电子商务平台及企业信息化建设为基点，提供全方位的设计与应用方案。以网站建设及网络营销整合作为其主打服务产品之外，摆摆网络的服务范围包括软件开发、平面设计、界面设计、网页设计等多方位优质服务。凭着对卓越服务与产品的不断追求，杭州摆摆网络科技有限公司在服务领域不断追求创新，依靠强大的技术实力、高效严谨的技术服务人员队伍，杭州摆摆网络科技有限公司在业界树立了良好的口碑。继往开来，杭州摆摆网络科技有限公司将以国际化的运营理念，多年业界的从业经验和技术积累，持之以恒，自强不息，为广大用户提供更加优异的产品和服务。" />
+<title>杭州摆摆网络科技股份有限公司</title>
+<style>
 .body {
 	margin: 0px;
 	padding: 0px;
@@ -159,12 +159,80 @@
 	padding-bottom: 15px;
 	font-size: 14px;
 }
+ul {
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+}
+.box6 {
+	width: 0 auto;
+	height: 380px;
+	position: relative;
+	border: 1px solid #999
+}
+.box6 ul.btn {
+	position: absolute;
+	z-index: 999;
+	left: 526px;
+	top: 333px;
+}
+.box6 ul.btn li {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background: #FFF;
+	margin: 0 5px;
+	float: left;
+	cursor: pointer
+}
+.box6 ul.pic li {
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+	opacity: 0;
+}
+.box6 ul.pic img {
+	width: 100%;
+	height: 100%;
+}
+.box6 .on_left {
+	width: 50px;
+	height: 100px;
+	background: #FFF;
+	opacity: 0.5;
+	position: absolute;
+	left: 0px;
+	top: 50%;
+	z-index: 9;
+	margin-top: -50px;
+	cursor: pointer;
+	font-size: 50px;
+	line-height: 100px;
+	text-align: center
+}
+.box6 .on_right {
+	width: 50px;
+	height: 100px;
+	background: #FFF;
+	opacity: 0.5;
+	position: absolute;
+	right: 0px;
+	top: 50%;
+	z-index: 9;
+	margin-top: -50px;
+	cursor: pointer;
+	font-size: 50px;
+	line-height: 100px;
+	text-align: center
+}
 </style>
-	</head>
-	<body>
+</head>
+<body>
 <div class="top">
-      <div class="top-b"><img src="images/LOGO3.png"></div>
-      <ul class="top-dao">
+  <div class="top-b"><img src="images/LOGO3.png"></div>
+  <ul class="top-dao">
     <li style="background:#F67A6E;color:white;">Home</li>
     <li>About</li>
     <li>Service</li>
@@ -172,48 +240,63 @@
     <li>Portfolio</li>
     <li>Price</li>
     <li>Blog</li>
-	<li>Contact</li>
+    <li>Contact</li>
   </ul>
-      <div class="clear"></div>
-    </div>
-<div class="pic"></div>
+  <div class="clear"></div>
+</div>
+<div class="box6" id="box6">
+  <div id="onl" class="on_left">&lt;</div>
+  <div id="onr" class="on_right">&gt;</div>
+  <ul class="btn" id="aa" >
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+  </ul>
+  <ul class="pic" id="bb" >
+    <li><img src="images/meishi1.jpg"></li>
+    <li><img src="images/meishi2.jpg"></li>
+    <li><img src="images/meishi3.jpg"></li>
+    <li><img src="images/meishi4.jpg" ></li>
+  </ul>
+</div>
 <div class="ziti1"> <a>WELCOME TO FLATLAB - SHARED ON WEIDEA.NET</a><br>
-      <a style="font-size:19px;color:#898AA7;">Professional html Template Perfect for Admin Dashboard</a> </div>
+  <a style="font-size:19px;color:#898AA7;">Professional html Template Perfect for Admin Dashboard</a> </div>
 <div class="box">
-      <div class="box1">RESPONSIVE DESIGN</div>
-      <div class="box2">FRIENDLY CODE</div>
-      <div class="box3">FULLY CUSTOMIZABLE</div>
-      <div class="box4">DEVELOPER FRIENDLY CODE</div>
-      <div class="box5">PURCHASE NOW</div>
-      <div class="clear"></div>
-    </div>
+  <div class="box1">RESPONSIVE DESIGN</div>
+  <div class="box2">FRIENDLY CODE</div>
+  <div class="box3">FULLY CUSTOMIZABLE</div>
+  <div class="box4">DEVELOPER FRIENDLY CODE</div>
+  <div class="box5">PURCHASE NOW</div>
+  <div class="clear"></div>
+</div>
 <div class="com">
-      <div class="pic2"><img src="images/index1_13.png"> <a class="text">FLAT $ MODERN TREND DESIGN<br>
-        locm skamf ksa awidmi kmsaklxdm a m mwklad </a> </div>
-      <div class="clear"></div>
-    </div>
+  <div class="pic2"><img src="images/index1_13.png"> <a class="text">FLAT $ MODERN TREND DESIGN<br>
+    locm skamf ksa awidmi kmsaklxdm a m mwklad </a> </div>
+  <div class="clear"></div>
+</div>
 <div class="com2">
-      <ul class="news">
+  <ul class="news">
     <li class="title2"> <span style="background: #F4F4F4;color:#908D8E;">News </span> <span>Events</span> <span>Notice board</span> </li>
     <li><img src="images/index1_20.png">xadnlwnmfclwsl</li>
     <li><img src="images/index1_24.png">wfwqvgwqgbvwqgvwq</li>
     <li><img src="images/index1_26.png">gqavwfwqwq</li>
   </ul>
-      <ul class="people">
+  <ul class="people">
     <li><img src="images/index1_17.png"></li>
     <li style="margin-left:100px;">ERICSON REAGAN<br>
-          ABC Realestate LLC</li>
+      ABC Realestate LLC</li>
     <li>xdhw9 uqxhn jkh qwu diswhq uibnx bwql ixqwh jbx uwjxk qwnx jksdwqd wq wqs qqsqa wq</li>
   </ul>
-      <div class="clear"></div>
-    </div>
+  <div class="clear"></div>
+</div>
 <div class="color">
-      <div class="laptop">RECENT WORK<br>
+  <div class="laptop">RECENT WORK<br>
     <img src="images/index1_29.png"></div>
-      <div class="blank_box">"And here I am Using my own lungs like a sucker.How is education supposed to make me feel smarter?"</div>
-    </div>
+  <div class="blank_box">"And here I am Using my own lungs like a sucker.How is education supposed to make me feel smarter?"</div>
+</div>
 <div class="bottom">
-      <ul style="float:left;">
+  <ul style="float:left;">
     <li style="font-size:18px;padding-top:10px;">CONTACT INFO</li>
     <li>Address:No.28-63877 street</li>
     <li>lorem jdifmik odfwaskfjkf</li>
@@ -221,14 +304,68 @@
     <li>Fax:(123)456-7890</li>
     <li>Email:<a style="color:#D75E67;font-weight: bold;">support@vectorlab.com</a></li>
   </ul>
-      <ul style="float:left;margin-left:50px;">
+  <ul style="float:left;margin-left:50px;">
     <li style="font-size:18px;padding-top:10px;">LATEST TWEET</li>
     <li> <span>More Templates</span> <span style="padding-left:50px;">-Collect from</span> </li>
   </ul>
-      <ul style="float:left;margin-left:80px;">
+  <ul style="float:left;margin-left:80px;">
     <li style=" font-size:18px;padding-top:10px;">STAY CONNECTED</li>
   </ul>
-      <div class="clear"></div>
-    </div>
+  <div class="clear"></div>
+</div>
+<script language="javascript">
+var a= document.getElementById('aa').getElementsByTagName('li');
+var b= document.getElementById('bb').getElementsByTagName('li');
+var c= document.getElementById('box6');
+var right= document.getElementById('onr');
+var left= document.getElementById('onl');
+var now=0;
+a[0].style.background='red';
+b[0].style.opacity='1';
+ function my(){
+                for(var i=0; i<a.length; i++){
+                    a[i].style.background='#fff';	
+					b[i].style.opacity='0';
+                }
+				a[now].style.background='red';
+			    b[now].style.opacity='1';
+            };
+
+for(var i=0; i<a.length; i++){
+	a[i].index=i;
+    a[i].onclick= function () {
+    now=this.index;
+    my()
+ }
+}
+
+function play(){
+	 now=(now+1)%a.length;
+      my();	
+	  		
+	}
+ right.onclick=function play(){
+	 now=(now+1)%a.length;
+      my();	
+	  	
+	}
+	
+ left.onclick=function(){
+	if(now==0){now=a.length};
+	 now=(now-1)%a.length;
+      my();	
+	
+	}	
+	
+ timer=setInterval('play()',1000);
+ c.onmouseover= function () {
+   clearInterval(timer); };
+
+ c.onmouseout= function() {
+   timer=setInterval('play()',1000);
+ }
+			
+
+</script>
 </body>
 </html>
