@@ -87,11 +87,11 @@
 	margin-top: 30px;
 }
 #box5 {
-	width: 200px;
-	height: 100px;
+	width: 150px;
+	height: 80px;
 	background: #99CC00;
 	float: left;
-	line-height: 100px;
+	line-height: 80px;
 	color: white;
 	margin-top: 50px;
 	border-radius: 5px;
@@ -113,24 +113,32 @@
 .pic2 {
 	padding: 100px;
 }
+.pic2 .text{
+	margin-top: 80px;	
+	}
 .com2 {
 	margin-top: 30px;
 }
 .com2 .com2-blank {
-	width: 1100px;
+	width: 900px;
 	margin: 0 auto;
 }
 .com2 li {
 	padding-top: 20px;
 	list-style: none;
 }
-.com2 .title2 span {
-	background: #6F6F6F;
-	padding: 20px 80px 20px 70px;
-	font-size: 12px;
-	color: #F1FBFE;
-	margin-left: -6px;
-	border-radius: 0 5px 0 0;
+.btn a {
+	padding: 20px;
+	cursor: pointer;
+}
+.nr img {
+	border: 1px solid black;
+	list-style: none;
+	width: 500px;
+	height: 300px;
+}
+.nr li {
+	display: none;
 }
 .com2 .news {
 	float: left;
@@ -140,6 +148,7 @@
 }
 .com2 .people img {
 	margin-left: 80px;
+	border-radius: 50%;
 }
 .color {
 	width: 1200px;
@@ -159,10 +168,14 @@
 .bottom {
 	position: relative;
 	margin-top: 20px;
-	background: #465167;
+	background: #393434;
 	left: 0px;
 	right: 0px;
 	bottom: 0px;
+}
+.bottom .bottom-blank {
+	width: 1200px;
+	margin: 0 auto;
 }
 .bottom li {
 	list-style: none;
@@ -170,6 +183,7 @@
 	padding-bottom: 15px;
 	font-size: 14px;
 }
+
 .banner {
 	position: relative;
 	margin-top: 30px;
@@ -208,7 +222,6 @@
 	right: 66px;
 	background: url(images/icon-right.png) no-repeat;
 }
-
 </style>
 </head>
 <body>
@@ -250,42 +263,40 @@
 <div class="com2">
   <div class="com2-blank">
     <div class="news">
-      <li class="title2"> <span style="background: #F4F4F4;color:#908D8E;">News </span> <span>Events</span> <span>Notice board</span> </li>
-      <li><img src="images/index1_20.png">xadnlwnmfclwsl</li>
-      <li><img src="images/index1_24.png">wfwqvgwqgbvwqgvwq</li>
-      <li><img src="images/index1_26.png">gqavwfwqwq</li>
+      <div class="btn" id="aa"> <a>菜谱一</a><span>|</span><a>菜谱二</a><span>|</span><a>菜谱三</a> </div>
+      <ul class="nr" id="bb">
+        <li><img src="images/caipu1.jpg"></li>
+        <li><img src="images/caipu2.jpg"></li>
+        <li><img src="images/caipu3.jpg"></li>
+      </ul>
     </div>
     <div class="people">
       <li><img src="images/index1_17.png"></li>
-      <li style="margin-left:100px;">ERICSON REAGAN<br>
-        ABC Realestate LLC</li>
-      <li>xdhw9 uqxhn jkh qwu diswhq uibnx bwql ixqwh</li>
+      <li style="margin-left:100px; text-align: center;">alice<br>
+      国内外顶级菜谱设计师</li>
     </div>
     <div class="clear"></div>
   </div>
 </div>
-<div class="color">
-  <div class="laptop">RECENT WORK<br>
-    <img src="images/index1_29.png"></div>
-  <div class="blank_box">"And here I am Using my own lungs like a sucker.How is education supposed to make me feel smarter?"</div>
-</div>
 <div class="bottom">
-  <ul style="float:left;">
-    <li style="font-size:18px;padding-top:10px;">CONTACT INFO</li>
-    <li>Address:No.28-63877 street</li>
-    <li>lorem jdifmik odfwaskfjkf</li>
-    <li>Phone:(123)456-7890</li>
-    <li>Fax:(123)456-7890</li>
-    <li>Email:<a style="color:#D75E67;font-weight: bold;">support@vectorlab.com</a></li>
-  </ul>
-  <ul style="float:left;margin-left:50px;">
-    <li style="font-size:18px;padding-top:10px;">LATEST TWEET</li>
-    <li> <span>More Templates</span> <span style="padding-left:50px;">-Collect from</span> </li>
-  </ul>
-  <ul style="float:left;margin-left:80px;">
-    <li style=" font-size:18px;padding-top:10px;">STAY CONNECTED</li>
-  </ul>
-  <div class="clear"></div>
+  <div class="bottom-blank">
+    <ul style="float:left;">
+      <li style="font-size:18px;padding-top:10px;">CONTACT INFO</li>
+      <li>Address:No.28-63877 street</li>
+      <li>lorem jdifmik odfwaskfjkf</li>
+      <li>Phone:(123)456-7890</li>
+      <li>Fax:(123)456-7890</li>
+      <li>Email:<a style="color:#D75E67;font-weight: bold;">support@vectorlab.com</a></li>
+    </ul>
+    <ul style="float:left;margin-left:50px;">
+      <li style="font-size:18px;padding-top:10px;">LATEST TWEET</li>
+      <li> <span>More Templates</span> <span style="padding-left:50px;">-Collect from</span> </li>
+    </ul>
+    <ul style="float:left;margin-left:80px;">
+      <li style=" font-size:18px;padding-top:10px;">STAY CONNECTED</li>
+    </ul>
+    <div class="clear"></div>
+  </div>
 </div>
 <script>
 //数组forEach方法补丁
@@ -330,7 +341,7 @@ function createBanner(option){
 			a = a >= dataLen - 1 ? 0 : a + 1;
 			images[_a].className = "";
 			images[a].className = "current";
-		}, 4000);
+		}, 3000);
 	}
 	function createButton(className){
 		var i = document.createElement("i");
@@ -382,7 +393,22 @@ createBanner({
 	element : "banner",
 	data : bannerData
 });
-
+	//选项卡
+	var a= document.getElementById('aa').getElementsByTagName('a');
+var b= document.getElementById('bb').getElementsByTagName('li');
+a[0].style.color='red';
+b[0].style.display='block';
+for(var i=0; i<a.length; i++){
+	a[i].index=i;
+	a[i].onclick= function(){
+				  for(var i=0; i<a.length; i++){
+					  a[i].style.color='black';
+					  b[i].style.display='none';
+					  }
+				  this.style.cplor='red';
+				  b[this.index].style.display='block';
+		}
+	}
 
 </script>
 </body>
